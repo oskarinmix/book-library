@@ -1,0 +1,35 @@
+.container#page-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 80%;
+  .page-details {
+    width: 50%;
+  }
+  .controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    button {
+      margin: 30px 10px;
+      padding: 13px;
+      background-color: rgba(4, 50, 87, 0.9);
+      color: white;
+      font-size: 2em;
+      cursor: pointer;
+    }
+  }
+  h1 {
+    font-size: 3em;
+    font-weight: 500;
+    margin: 10px 0px;
+  }
+  p {
+    font-size: 1.4em;
+    font-weight: 400;
+  }
+}

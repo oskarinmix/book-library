@@ -1,0 +1,52 @@
+.container {
+  margin: auto;
+  margin-top: 30px;
+  max-width: 80%;
+  h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 10px 0px;
+  }
+  table {
+    width: 100%;
+    text-align: center;
+    thead {
+      font-size: 3em;
+      background-color: rgba(0, 0, 0, 0.9);
+      color: white;
+      th {
+        padding: 10px 0px;
+      }
+    }
+    tbody {
+      font-size: 2em;
+      background-color: #dfd7de;
+      a {
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+          color: blue;
+        }
+      }
+      td {
+        padding: 10px 0px;
+      }
+    }
+  }
+  .controls {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      font-size: 2em;
+    }
+    button {
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.9);
+      color: white;
+      font-size: 1.5em;
+    }
+  }
+}

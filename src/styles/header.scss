@@ -1,0 +1,15 @@
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 0px 10%;
+  img {
+    height: 80%;
+  }
+  h1 {
+    color: white;
+    font-size: 5em;
+  }
+}
